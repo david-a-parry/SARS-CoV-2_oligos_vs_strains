@@ -31,7 +31,7 @@ def main(fasta):
     new_fh.close()
     dup_fh.close()
     sys.stderr.write("Finished - created de-duplicated and re-headered file " +
-                     "{}\nSequences with duplicate sequence IDs in {}".format(
+                     "{}\nSequences with duplicate sequence IDs in {}\n".format(
                          new_fasta, dup_fasta))
 
 

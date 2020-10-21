@@ -29,7 +29,7 @@ cd SARS-CoV-2_oligos_vs_strains
 
 You will need to register with GISAID in order to obtain sequence and multiple alignment data for SARS-COV-2 strains from their EpiCov database. Required files are the:
 
-* nextfasta file (sequences_2020-10-12_07-17.fasta.gz) and msa_1021 file (msa_1012.tar.xz)
+* nextfasta file (sequences_2020-10-12_07-17.fasta.gz)
 * msa_1021 file (msa_1012.tar.xz)
 
 Download these files to the SARS-CoV-2_oligos_vs_strains directory created when you cloned this repository. Next, extract the multiple alignment file from the msa_1012.tar.xz archive and run the reheader_msa.py script to reformat headers and remove duplicate sequence IDs (strains sequenced more than once).
